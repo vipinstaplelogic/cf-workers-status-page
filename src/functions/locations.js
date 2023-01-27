@@ -1,3 +1,3 @@
 export const locations = {
- MEL: 'Melbourne',
+ MEL: 'Melbourne'
 }
