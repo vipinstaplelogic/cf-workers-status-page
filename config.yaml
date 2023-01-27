@@ -32,3 +32,45 @@ monitors:
     url: 'https://momcrieff.com'
     method: GET
     expectStatus: 200
+    
+  - id: petiteinparis-com
+    name: petiteinparis.com
+    url: 'https://petiteinparis.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: mypureplants-com
+    name: mypureplants.com
+    url: 'https://mypureplants.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: planetnatural-com
+    name: www.planetnatural.com
+    url: 'https://www.planetnatural.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: thegadgetbuyer-com
+    name: thegadgetbuyer.com
+    url: 'https://thegadgetbuyer.com'
+    method: GET
+    expectStatus: 200
+   
+  - id: wellkeptwallet-com
+    name: wellkeptwallet.com
+    url: 'https://wellkeptwallet.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: nerdsandscoundrels-com
+    name: www.nerdsandscoundrels.com
+    url: 'https://www.nerdsandscoundrels.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: parkedinparadise-com
+    name: www.parkedinparadise.com
+    url: 'https://www.parkedinparadise.com'
+    method: GET
+    expectStatus: 200
