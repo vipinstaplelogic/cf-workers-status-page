@@ -15,19 +15,62 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: thehomesihavemade-com
+    name: thehomesihavemade.com
+    url: 'https://thehomesihavemade.com/'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    
+    - id: www-wholekitchensink-com
+    name: www.wholekitchensink.com
+    url: 'https://www.wholekitchensink.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: Momcrieff-com
+    name: momcrieff.com
+    url: 'https://momcrieff.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: petiteinparis-com
+    name: petiteinparis.com
+    url: 'https://petiteinparis.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: mypureplants-com
+    name: mypureplants.com
+    url: 'https://mypureplants.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: planetnatural-com
+    name: www.planetnatural.com
+    url: 'https://www.planetnatural.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: thegadgetbuyer-com
+    name: thegadgetbuyer.com
+    url: 'https://thegadgetbuyer.com'
+    method: GET
+    expectStatus: 200
+   
+  - id: wellkeptwallet-com
+    name: wellkeptwallet.com
+    url: 'https://wellkeptwallet.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: nerdsandscoundrels-com
+    name: www.nerdsandscoundrels.com
+    url: 'https://www.nerdsandscoundrels.com'
+    method: GET
+    expectStatus: 200
+    
+  - id: parkedinparadise-com
+    name: www.parkedinparadise.com
+    url: 'https://www.parkedinparadise.com'
+    method: GET
+    expectStatus: 200
